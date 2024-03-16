@@ -1,28 +1,40 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="wrapper flex h-screen">
+      <SidebarVue />
+      <div class="main flex-1 bg-main">
+        <!-- Контент заголовка -->
+        <HeaderVue class="px-7" />
+        <!-- Основной контент страницы -->
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderVue from "./components/Header.vue";
+import SidebarVue from "./components/Sidebar.vue";
+
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    SidebarVue,
+    HeaderVue,
+  },
+
+  data() {
+    return {
+      message: "Привет, Vue!",
+      date: new Date(),
+    };
+  },
+  computed: {
+    timeNow() {
+      return this.date.toLocaleTimeString();
+    },
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style scoped></style>
