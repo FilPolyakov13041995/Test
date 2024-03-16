@@ -4,8 +4,9 @@
       <SidebarVue />
       <div class="main flex-1 bg-main">
         <!-- Контент заголовка -->
-        <HeaderVue class="px-7" />
+        <HeaderVue class="mb-7" />
         <!-- Основной контент страницы -->
+        <TeamInfoVue />
       </div>
     </div>
   </div>
@@ -14,6 +15,7 @@
 <script>
 import HeaderVue from "./components/Header.vue";
 import SidebarVue from "./components/Sidebar.vue";
+import TeamInfoVue from './components/TeamInfo.vue';
 
 
 export default {
@@ -21,6 +23,7 @@ export default {
   components: {
     SidebarVue,
     HeaderVue,
+    TeamInfoVue,
   },
 
   data() {

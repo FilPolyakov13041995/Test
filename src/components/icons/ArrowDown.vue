@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-300 p-2 rounded-md">
+  <div class="bg-slate-100 p-2 rounded-md cursor-pointer">
     <svg
       width="8"
       height="6"

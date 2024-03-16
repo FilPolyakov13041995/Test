@@ -22,7 +22,11 @@ module.exports = {
       },
       fontSize: {
         '1xl': '22px',
+      },
+      spacing: {
+        '105': '504px',
       }
+      
     },
   },
   plugins: [],

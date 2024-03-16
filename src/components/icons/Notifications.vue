@@ -1,5 +1,6 @@
 <template>
   <svg
+    class="cursor-pointer"
     width="26"
     height="24"
     viewBox="0 0 26 24"
