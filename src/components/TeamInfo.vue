@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-7 bg-white rounded-xl px-7 py-4 flex items-center gap-9">
+  <div class="mx-7 bg-white rounded-xl px-7 py-4 flex items-center mb-7 gap-9">
     <div class="flex items-center gap-4">
       <TeamIconVue class="p-2" />
       <div class="relative">

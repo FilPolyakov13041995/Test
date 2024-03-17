@@ -3,6 +3,9 @@ module.exports = {
   content: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        commissioner: ['Commissioner', 'sans-serif'],
+      }, 
       width: {
         '18': '72px',
         '19': '76px',
@@ -13,6 +16,7 @@ module.exports = {
       backgroundColor: {
         'main': '#F5F7FB',
         'main-gradient': '#F8F9FA',
+        'button-custom': '#8F20EF',
       },
       borderColor: {
         'blue-custom': '#2A355A',

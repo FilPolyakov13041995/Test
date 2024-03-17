@@ -1,6 +1,6 @@
 <template>
   <header
-    class="header flex items-center justify-between h-19 bg-gradient-to-l px-7 from-white to-slate-50"
+    class="header flex items-center justify-between h-19 bg-gradient-to-l px-7 mb-7 from-white to-slate-50"
   >
     <div class="flex items-center gap-7">
       <div class="flex flex-col gap-1 cursor-pointer">
