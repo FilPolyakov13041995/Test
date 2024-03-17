@@ -13,7 +13,7 @@
     <div class="flex items-center gap-3 sm:gap-7">
       <SearchVue />
       <NotificationsVue />
-      <div class="border-x border-slate-300 h-8"></div>
+      <div class="border-x border-slate-100 h-8"></div>
       <div class="flex items-center gap-3">
         <img src="../assets/images/Ernest.png" alt="Ernest" class="w-8 h-8 rounded-lg">
         <h3 class="text-blue-custom text-sm font-normal">Ernest Eberly</h3>

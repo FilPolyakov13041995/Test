@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         commissioner: ['Commissioner', 'sans-serif'],
-      }, 
+      },
       width: {
         '18': '72px',
         '19': '76px',
@@ -17,6 +17,7 @@ module.exports = {
         'main': '#F5F7FB',
         'main-gradient': '#F8F9FA',
         'button-custom': '#8F20EF',
+        'team-table': '#F5F7FB',
       },
       borderColor: {
         'blue-custom': '#2A355A',

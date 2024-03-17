@@ -13,7 +13,7 @@
       <p class="text-2xl font-medium">130</p>
       <p class="text-gray-400 text-xs">members</p>
     </div>
-    <div class="border-x border-slate-300 h-12"></div>
+    <div class="border-x border-slate-200 h-12"></div>
     <div class="relative text-blue-custom">
       <p class="text-2xl font-medium">36</p>
       <span
@@ -21,7 +21,7 @@
       ></span>
       <p class="text-gray-400 text-xs">online</p>
     </div>
-    <div class="border-x border-slate-300 h-12"></div>
+    <div class="border-x border-slate-200 h-12"></div>
     <div class="text-blue-custom flex gap-9">
       <div>
         <p class="text-2xl font-medium">50</p>
@@ -32,22 +32,22 @@
         <p class="text-gray-400 text-xs">women</p>
       </div>
     </div>
-    <div class="border-x border-slate-300 h-12"></div>
+    <div class="border-x border-slate-200 h-12"></div>
     <div class="text-blue-custom">
       <p class="text-2xl font-medium">29</p>
       <p class="text-gray-400 text-xs">average age</p>
     </div>
-    <div class="border-x border-slate-300 h-12"></div>
+    <div class="border-x border-slate-200 h-12"></div>
     <div class="text-blue-custom">
       <p class="text-2xl font-medium">265</p>
       <p class="text-gray-400 text-xs">days work on average</p>
     </div>
-    <div class="border-x border-slate-300 h-12"></div>
+    <div class="border-x border-slate-200 h-12"></div>
     <div class="text-blue-custom">
       <p class="text-2xl font-medium">36</p>
       <p class="text-gray-400 text-xs">days work newest employee</p>
     </div>
-    <div class="border-x border-slate-300 h-12"></div>
+    <div class="border-x border-slate-200 h-12"></div>
     <div class="text-blue-custom">
       <p class="text-2xl font-medium">1256</p>
       <p class="text-gray-400 text-xs">days work oldest employee</p>

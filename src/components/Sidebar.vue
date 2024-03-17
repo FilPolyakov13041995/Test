@@ -7,7 +7,7 @@
       <MenuListSvgsVue />
     </div>
     <div>
-      <div class="border-y border-slate-300 w-full"></div>
+      <div class="border-y border-slate-100 w-full"></div>
       <PlusVue class="mx-auto" />
     </div>
   </div>

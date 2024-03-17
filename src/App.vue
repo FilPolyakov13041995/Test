@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="font-commissioner">
-    <div class="wrapper flex h-screen">
+    <div class="wrapper flex min-h-screen">
       <SidebarVue />
       <div class="main flex-1 bg-main">
         <!-- Контент заголовка -->
@@ -8,6 +8,7 @@
         <!-- Основной контент страницы -->
         <TeamInfoVue />
         <ButtonVue />
+        <TeamTableVue />
       </div>
     </div>
   </div>
@@ -18,6 +19,7 @@ import ButtonVue from './components/Button.vue';
 import HeaderVue from "./components/Header.vue";
 import SidebarVue from "./components/Sidebar.vue";
 import TeamInfoVue from './components/TeamInfo.vue';
+import TeamTableVue from './components/TeamTable.vue';
 
 
 export default {
@@ -27,6 +29,7 @@ export default {
     HeaderVue,
     TeamInfoVue,
     ButtonVue,
+    TeamTableVue
   },
 
   data() {
@@ -43,4 +46,3 @@ export default {
 };
 </script>
 
-<style scoped></style>
