@@ -17,22 +17,22 @@
       <div class="flex items-center gap-3">
         <img src="../assets/images/Ernest.png" alt="Ernest" class="w-8 h-8 rounded-lg">
         <h3 class="text-blue-custom text-sm font-normal">Ernest Eberly</h3>
-        <ArrowDownVue /> 
+        <DropDownBtn /> 
       </div>
     </div>
   </header>
 </template>
 
 <script>
-import ArrowDownVue from './icons/ArrowDown.vue';
 import NotificationsVue from './icons/Notifications.vue';
 import SearchVue from './icons/Search.vue';
+import DropDownBtn from "./icons/DropDownBtn.vue";
 export default {
   name: "HeaderVue",
   components: {
     SearchVue,
     NotificationsVue,
-    ArrowDownVue,
+    DropDownBtn,
   }
 };
 

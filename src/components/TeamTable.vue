@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-7 bg-white rounded-xl p-4">
+  <section class="mx-7 bg-white rounded-xl p-4">
     <div
       class="bg-team-table rounded-xl text-blue-custom font-medium px-4 h-16 gap-2 grid grid-cols-8 mb-3"
     >
@@ -23,7 +23,7 @@
             <ArrowBottomBlueVue />
           </div>
         </div>
-        <ArrowDownVue class="bg-white ml-14" />
+        <DropDownBtn class="bg-white ml-14" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
       <div class="flex items-center justify-between pl-2">
@@ -35,7 +35,7 @@
             <ArrowBottomVue />
           </div>
         </div>
-        <ArrowDownVue class="bg-white ml-14" />
+        <DropDownBtn class="bg-white ml-14" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
       <div class="flex items-center justify-between pl-2">
@@ -58,7 +58,7 @@
             <ArrowBottomVue />
           </div>
         </div>
-        <ArrowDownVue class="bg-white ml-7" />
+        <DropDownBtn class="bg-white ml-7" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
       <div class="flex items-center justify-between pl-3">
@@ -69,7 +69,7 @@
             <ArrowBottomVue />
           </div>
         </div>
-        <ArrowDownVue class="bg-white ml-12" />
+        <DropDownBtn class="bg-white ml-12" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
       <div class="flex items-center justify-between pl-3">
@@ -80,7 +80,7 @@
             <ArrowBottomVue />
           </div>
         </div>
-        <ArrowDownVue class="bg-white ml-11" />
+        <DropDownBtn class="bg-white ml-11" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
       <div class="flex items-center justify-between pl-3">
@@ -96,7 +96,11 @@
       :class="{ 'border-b border-slate-100': user.id !== team.length }"
     >
       <div class="flex items-center gap-3">
-        <img :src="require(`../assets/images/${user.photo}`)" class="w-9 h-9 rounded-xl" alt="Photo of user">
+        <img
+          :src="require(`../assets/images/${user.photo}`)"
+          class="w-9 h-9 rounded-xl"
+          alt="Photo of user"
+        />
         <p>{{ user.name }}</p>
       </div>
       <p>{{ user.team }}</p>
@@ -107,13 +111,13 @@
       <p>{{ user.lastLogin }}</p>
       <div class="flex items-center justify-between">
         <div class="flex items-center gap-2 border p-2.5 w-20 rounded-xl">
-                <EditVue />
-                <p>Edit</p>
+          <EditVue />
+          <p>Edit</p>
         </div>
         <CardVue />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -121,10 +125,10 @@ import ArrowTopVue from "./icons/ArrowTop.vue";
 import ArrowBottomVue from "./icons/ArrowBottom.vue";
 import CrossVue from "./icons/Cross.vue";
 import ArrowBottomBlueVue from "./icons/ArrowBottomBlue.vue";
-import ArrowDownVue from "./icons/ArrowDown.vue";
+import DropDownBtn from "./icons/DropDownBtn.vue";
 import SearchTableVue from "./icons/SearchTable.vue";
 import EditVue from "./icons/Edit.vue";
-import CardVue from './icons/Card.vue';
+import CardVue from "./icons/Card.vue";
 export default {
   name: "TeamTable",
   components: {
@@ -132,7 +136,7 @@ export default {
     ArrowBottomVue,
     CrossVue,
     ArrowBottomBlueVue,
-    ArrowDownVue,
+    DropDownBtn,
     SearchTableVue,
     EditVue,
     CardVue,

@@ -19,6 +19,6 @@
 
 <script>
 export default {
-  name: "ArrowDown",
+  name: "DropDownBtn",
 };
 </script>

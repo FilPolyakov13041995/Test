@@ -19,7 +19,7 @@ import MenuListSvgsVue from "./icons/MenuListSvgs.vue";
 import PlusVue from "./icons/Plus.vue";
 
 export default {
-  name: "SideBar",
+  name: "NavigationVue",
   components: {
     LogoVue,
     MenuListSvgsVue,
