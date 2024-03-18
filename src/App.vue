@@ -44,6 +44,7 @@ export default {
   data() {
     return {
       currentPage: 2,
+      totalPages: 12,
     };
   },
   methods: {
