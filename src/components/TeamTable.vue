@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-7 bg-white rounded-xl p-4">
+  <section class="mx-7 bg-white rounded-xl p-4 mb-7">
     <div
       class="bg-team-table rounded-xl text-blue-custom font-medium px-4 h-16 gap-2 grid grid-cols-8 mb-3"
     >
@@ -14,7 +14,7 @@
         </div>
         <div class="border-x border-slate-200 h-full"></div>
       </div>
-      <div class="flex items-center justify-between pl-2">
+      <div class="flex items-center justify-between">
         <div class="flex items-center gap-1">
           <CrossVue />
           <p class="text-xs font-medium pr-2">Team</p>
@@ -23,10 +23,11 @@
             <ArrowBottomBlueVue />
           </div>
         </div>
-        <DropDownBtn class="bg-white ml-14" />
+        <div class="flex-grow"></div>
+        <DropDownBtn class="bg-white mr-4" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
-      <div class="flex items-center justify-between pl-2">
+      <div class="flex items-center justify-between">
         <div class="flex items-center gap-1">
           <CrossVue />
           <p class="text-xs font-medium pr-2">Role</p>
@@ -35,10 +36,11 @@
             <ArrowBottomVue />
           </div>
         </div>
-        <DropDownBtn class="bg-white ml-14" />
+        <div class="flex-grow"></div>
+        <DropDownBtn class="bg-white mr-4" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
-      <div class="flex items-center justify-between pl-2">
+      <div class="flex items-center justify-between">
         <div class="flex items-center gap-2">
           <SearchTableVue />
           <p class="text-xs font-medium">Gmail</p>
@@ -49,7 +51,7 @@
         </div>
         <div class="border-x border-slate-200 h-full"></div>
       </div>
-      <div class="flex items-center justify-between pl-2">
+      <div class="flex items-center justify-between">
         <div class="flex items-center gap-1">
           <CrossVue />
           <p class="text-xs font-medium pr-2">Birthday</p>
@@ -58,10 +60,11 @@
             <ArrowBottomVue />
           </div>
         </div>
-        <DropDownBtn class="bg-white ml-7" />
+        <div class="flex-grow"></div>
+        <DropDownBtn class="bg-white mr-4" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
-      <div class="flex items-center justify-between pl-3">
+      <div class="flex items-center justify-between">
         <div class="flex items-center gap-1">
           <p class="text-xs font-medium pr-2">Telegram</p>
           <div class="flex flex-col gap-1">
@@ -69,10 +72,11 @@
             <ArrowBottomVue />
           </div>
         </div>
-        <DropDownBtn class="bg-white ml-12" />
+        <div class="flex-grow"></div>
+        <DropDownBtn class="bg-white mr-4" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
-      <div class="flex items-center justify-between pl-3">
+      <div class="flex items-center justify-between">
         <div class="flex items-center gap-1">
           <p class="text-xs font-medium pr-2">Last Login</p>
           <div class="flex flex-col gap-1">
@@ -80,10 +84,11 @@
             <ArrowBottomVue />
           </div>
         </div>
-        <DropDownBtn class="bg-white ml-11" />
+        <div class="flex-grow"></div>
+        <DropDownBtn class="bg-white mr-4" />
         <div class="border-x border-slate-200 h-full"></div>
       </div>
-      <div class="flex items-center justify-between pl-3">
+      <div class="flex items-center justify-between">
         <div class="flex items-center gap-1">
           <p class="text-xs font-medium pr-2">User permissions</p>
         </div>

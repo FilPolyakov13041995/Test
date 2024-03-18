@@ -1,5 +1,5 @@
 <template>
-  <div
+  <nav
     class="sidebar w-18 bg-white flex flex-col justify-between items-center pt-7"
   >
     <div>
@@ -10,7 +10,7 @@
       <div class="border-y border-slate-100 w-full"></div>
       <PlusVue class="mx-auto" />
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>

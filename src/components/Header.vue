@@ -1,5 +1,5 @@
 <template>
-  <header
+  <div
     class="header flex items-center justify-between h-19 bg-gradient-to-l px-7 mb-7 from-white to-slate-50"
   >
     <div class="flex items-center gap-7">
@@ -20,7 +20,7 @@
         <DropDownBtn /> 
       </div>
     </div>
-  </header>
+  </div>
 </template>
 
 <script>

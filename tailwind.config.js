@@ -6,6 +6,12 @@ module.exports = {
       fontFamily: {
         commissioner: ['Commissioner', 'sans-serif'],
       },
+      maxWidth: {
+        '8xl': '1403px',
+      },
+      minHeight: {
+        '18': '68px',
+      },
       width: {
         '18': '72px',
         '19': '76px',
@@ -24,6 +30,7 @@ module.exports = {
       },
       textColor: {
         'blue-custom': '#2A355A',
+        'gray-custom': '#8591AE',
       },
       fontSize: {
         '1xl': '22px',

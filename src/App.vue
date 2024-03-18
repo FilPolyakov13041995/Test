@@ -4,15 +4,20 @@
       <!-- Навигационный блок -->
       <NavigationVue />
       <div class="flex-1 bg-main">
-        <!-- Контент Header -->
-        <HeaderVue />
-        <!-- Основной контент страницы -->
+        <header>
+          <!-- Контент Header -->
+          <HeaderVue />
+        </header>
         <main>
+          <!-- Основной контент страницы -->
           <TeamInfoVue />
           <ButtonVue />
           <TeamTableVue />
         </main>
-        <footer></footer>
+        <footer>
+          <PaginationVue :currentPage="currentPage" :totalPages="totalPages" />
+          <!-- Контент Footer -->
+        </footer>
       </div>
     </div>
   </div>
@@ -24,6 +29,7 @@ import HeaderVue from "./components/Header.vue";
 import TeamInfoVue from "./components/TeamInfo.vue";
 import TeamTableVue from "./components/TeamTable.vue";
 import NavigationVue from "./components/Navigation.vue";
+import PaginationVue from "./components/Pagination.vue";
 
 export default {
   name: "App",
@@ -33,18 +39,17 @@ export default {
     TeamInfoVue,
     ButtonVue,
     TeamTableVue,
+    PaginationVue,
   },
-
   data() {
     return {
-      message: "Привет, Vue!",
-      date: new Date(),
+      currentPage: 2,
     };
   },
+  methods: {
+  },
   computed: {
-    timeNow() {
-      return this.date.toLocaleTimeString();
-    },
+
   },
 };
 </script>
