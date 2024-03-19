@@ -23,6 +23,3 @@ export default {
   name: "ArrowLeftIcon",
 };
 </script>
-
-<style>
-</style>

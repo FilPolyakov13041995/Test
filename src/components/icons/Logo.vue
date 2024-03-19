@@ -21,6 +21,3 @@ export default {
   name: "LogoVue",
 };
 </script>
-
-<style>
-</style>

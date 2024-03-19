@@ -24,6 +24,3 @@ export default {
   name: "InfoIcon",
 };
 </script>
-
-<style>
-</style>

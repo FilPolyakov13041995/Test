@@ -1,8 +1,8 @@
 <template>
   <div class="bg-white rounded-xl mx-7 mb-7 p-4 min-h-16 flex items-center">
-    <div class="flex gap-4 items-center text-gray-custom">
+    <ul class="flex gap-4 items-center text-gray-custom">
       <ArrowLeftIcon />
-      <p
+      <li
         class="px-4 py-2"
         v-for="page in visiblePages"
         :key="page"
@@ -11,15 +11,15 @@
         }"
       >
         <a>{{ page }}</a>
-      </p>
-      <p v-if="showLastPageEllipsis">
+      </li>
+      <li v-if="showLastPageEllipsis">
         <a class="text-gray-custom">. . .</a>
-      </p>
-      <p v-if="currentPage < totalPages">
+      </li>
+      <li v-if="currentPage < totalPages">
         <a class="px-4 py-2">{{ totalPages }}</a>
-      </p>
+      </li>
       <ArrowRightIcon />
-    </div>
+    </ul>
   </div>
 </template>
 
@@ -56,10 +56,9 @@ export default {
       this.updateVisiblePages();
     },
   },
-  computed: {},
   methods: {
     updateVisiblePages() {
-      const range = 1; 
+      const range = 1;
       const startPage = Math.max(this.currentPage - range, 1);
       const endPage = Math.min(this.currentPage + range, this.totalPages);
       this.visiblePages = Array.from(

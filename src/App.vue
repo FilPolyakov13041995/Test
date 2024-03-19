@@ -47,11 +47,6 @@ export default {
       totalPages: 12,
     };
   },
-  methods: {
-  },
-  computed: {
-
-  },
 };
 </script>
 
